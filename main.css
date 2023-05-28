@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+form input, textarea {
+    font-family: 'Playfair', serif; 
+}
+
+header,
+section h2, h3, button {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+}
+
+.container { /* Definindo o padrão dos containers a ser criado na página */
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #5f214d;
+    color: #fff;
+    padding: 16px 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 8px;;
+    font-size: 	18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+header h1 {
+    padding: 24px 0;
+    font-size: 42px;
+    text-shadow: -0.01em 0.03em 0.16em #fff;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.super-mario {
+    height: 640px;
+    margin-right: 26px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+#about h2 {
+    color: #5f214d;
+}
+
+.logo img,
+.brands-list img {
+    height: 30px;
+}
+
+.logo li,
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact form input, textarea, button {
+    display: block;
+    margin-bottom: 6px;
+    width: 320px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #5f214d;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5f214fda;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+footer {
+    background-color: #5f214d;
+    color: white;
+}
+
+footer .container {
+    padding: 16px;
+    text-align: center;
+}
